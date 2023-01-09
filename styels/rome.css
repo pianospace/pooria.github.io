@@ -1,0 +1,222 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #1b1c29;
+  font-family: "Graphik";
+}
+body audio {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.backimg {
+  height: 800px;
+  left: 18%;
+  top: 15%;
+  position: fixed;
+}
+
+.reading1 {
+  margin-top: 40px;
+  color: white;
+  border-radius: 30px 30px 30px;
+  background: rgba(139, 128, 99, 0.286);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  box-sizing: border-box;
+  padding: 5px 30px 4px 28px;
+  line-height: 28px;
+}
+.reading1 h3 {
+  font-size: 25px;
+  color: cadetblue;
+}
+
+.featuers {
+  padding: 1px;
+}
+.featuers .featuers-header {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+.featuers .featuers-header h1 {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(182, 182, 182);
+}
+.featuers .featuers-header h4 {
+  color: rgba(128, 128, 128, 0.864);
+  font-family: "Graphik";
+  font-style: normal;
+  font-size: larger;
+}
+.featuers .card {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.featuers .card a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+.featuers .card .card1, .featuers .card .card2, .featuers .card .card3, .featuers .card .card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px 30px 30px;
+  background: rgba(255, 243, 243, 0.1);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  box-sizing: border-box;
+  width: 340px;
+  height: 450px;
+  padding: 30px 30px 30px 28px;
+}
+.featuers .card .card1 h5, .featuers .card .card2 h5, .featuers .card .card3 h5, .featuers .card .card4 h5 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #7bb8ad;
+}
+.featuers .card .card1 a, .featuers .card .card2 a, .featuers .card .card3 a, .featuers .card .card4 a {
+  text-decoration: none;
+  color: rgb(220, 231, 227);
+  background-color: rgba(27, 28, 41, 0.7176470588);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border-radius: 30px 30px 30px 30px;
+  padding: 12px;
+}
+.featuers .card .card1 p, .featuers .card .card2 p, .featuers .card .card3 p, .featuers .card .card4 p {
+  padding-bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B6B6B6;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "salt" on, "liga" off;
+}
+
+.login12 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.login12 .leftcol {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.login12 .leftcol .login-text {
+  border: 20px 20px 20px;
+  height: 70%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  color: white;
+  border-radius: 30px 30px 30px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+.login12 .leftcol h2 {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+}
+.login12 .leftcol P {
+  color: rgba(220, 232, 230, 0.7137254902);
+  font-size: 15px;
+}
+.login12 .right-col {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.login12 .right-col .img1 {
+  position: absolute;
+  top: 250px;
+}
+.login12 .right-col .img2 {
+  bottom: 150px;
+  position: absolute;
+}
+.login12 .right-col form {
+  align-items: center;
+  border-radius: 30px 30px 30px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  height: 60VH;
+  width: 45%;
+  padding: 40px 40px 40px 40px;
+  color: #181824;
+  justify-content: center;
+  display: flex;
+  row-gap: 15px;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.63);
+  font-size: larger;
+  font-family: "Graphik";
+  font-weight: bold;
+}
+.login12 .right-col form .username {
+  width: 85%;
+  height: 100px;
+  text-align: center;
+  color: #181824;
+  border-radius: 20px 20px 20px;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  background: rgba(255, 251, 251, 0.655);
+  font-family: "Graphik";
+}
+.login12 .right-col form .dokme1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login12 .right-col form .dokme1 .login-cta {
+  margin-top: 30px;
+  border-radius: 30px 30px 30px 30px;
+  font-size: 17px;
+  text-decoration: none;
+  font-style: normal;
+  font-family: "Graphik";
+  width: 200px;
+  padding: 10px 20px 10px 20px;
+  background-color: #09554b;
+  color: white;
+  border: none;
+}
+
+.mobile {
+  display: none;
+}/*# sourceMappingURL=rome.css.map */
